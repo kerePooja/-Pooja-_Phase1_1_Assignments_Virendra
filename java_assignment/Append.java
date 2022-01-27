@@ -19,11 +19,11 @@ package java_assignment;
 			
 			@SuppressWarnings("unused")
 			
-			FileWriter file = new FileWriter("D://Java Files//AakashPhase1/Writer.txt",true );
+			FileWriter file = new FileWriter("D://Java Files//PoojaPhase1/Writer.txt",true );
 			BufferedWriter Bw= new BufferedWriter(file);
 			Bw.write("Is my contry");
 			@SuppressWarnings("resource")
-			BufferedReader Br = new BufferedReader(new FileReader ("D://Java Files//AakashPhase1//Writer.txt"));
+			BufferedReader Br = new BufferedReader(new FileReader ("D://Java Files//PoojaPhase1//Writer.txt"));
 			Bw.newLine();
 			Bw.close();
 			Br.read();
